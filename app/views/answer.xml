@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="answer" backgroundImage="/images/background/answer.jpg">		
+		<View id="rowContainer" backgroundColor="white" width="75%" height="70%" top="80">
+			<Label id="question" text="" color="black"></Label>
+			<ImageView id="answerImage" image=""/>
+		</View>
+		<Button id="replayButton" backgroundImage="/images/button_right.png" bottom="10" left="5" onClick="correctAnswer" width="30%" height="15%"/>
+		<Button id="replayButton" backgroundImage="/images/button_wrong.png" bottom="10" right="5" onClick="nextQuestion" width="30%" height="15%"/>
+		
+	</Window>
+</Alloy>

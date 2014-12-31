@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="playersWindow" backgroundImage="/images/background/players.jpg" backgroundColor="#FBC9BA" barColor="black">
+		<View id="player01View" top="80" width="100%" height="17%" backgroundImage="/images/background/player.png">
+	        <TextField id="player01Name" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" top="25" left="52" height="32" width="230" value="Jugador 1" />
+		</View>		
+		<View id="player02View" top="150" width="100%" height="17%" backgroundImage="/images/background/player.png">
+	        <TextField id="player02Name" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" top="25" left="52" height="32" width="230" value="Jugador 2" />
+		</View>
+		<View id="player03View" top="220" width="100%" height="17%" backgroundImage="/images/background/player.png" visible="false">
+	        <TextField id="player03Name" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" top="25" left="52" height="32" width="230" value="Jugador 3" />	        
+		</View>		
+		<View id="player04View" top="290" width="100%" height="17%" backgroundImage="/images/background/player.png" visible="false">
+	        <TextField id="player04Name" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" top="25" left="52" height="32" width="230" value="Jugador 4" />
+		</View>			
+		
+		
+		
+		<Button id="addPlayerButton" width="18%" height="10%" top="20" left="0" backgroundImage="/images/buttons/button_addplayer.png" onClick="addPlayer"/>
+		<Button id="deletePlayerButton" width="18%" height="10%" top="20" left="50" backgroundImage="/images/buttons/button_deleteplayer.png" onClick="deletePlayer"/>
+		
+		
+		<Button id="backButton" width="30%" height="15%" bottom="0" left="1" backgroundImage="/images/buttons/button_back.png" onClick="back"/>
+		<Button id="playButton" width="30%" height="15%" bottom="0" right="1" backgroundImage="/images/buttons/button_play.png" onClick="play"/>
+		
+	</Window>
+</Alloy>

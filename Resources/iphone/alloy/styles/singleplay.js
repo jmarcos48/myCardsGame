@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0011,"key":"Button","style":{font:{fontSize:12,},color:"gray",textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,}}];

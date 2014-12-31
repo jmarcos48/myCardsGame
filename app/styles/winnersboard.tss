@@ -1,0 +1,5 @@
+"#winnerInfo": {
+	font: { fontSize: 18, fontWeight:'bold'},
+	color: "white",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}

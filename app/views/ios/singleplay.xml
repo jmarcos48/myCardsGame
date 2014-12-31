@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="singlePlayer" backgroundImage="/images/background/singleplayer.jpg">		
+		
+		<View id="rowContainer" width="80%" height="30%" top="30">
+			<Label id="question" text=""></Label>
+		</View>
+		
+		<!-->
+		<Button id="option01" backgroundImage="/images/background/answer01.png" bottom="230" onClick="option01Clicked" width="634px" height="129px" />
+		<Button id="option02" backgroundImage="/images/background/answer02.png" bottom="170" onClick="option02Clicked" width="634px" height="129px" />
+		<Button id="option03" backgroundImage="/images/background/answer01.png" bottom="120" onClick="option03Clicked" width="634px" height="129px" />
+		<Button id="option04" backgroundImage="/images/background/answer02.png" bottom="60"  onClick="option04Clicked" width="634px" height="129px" />
+	-->
+		<Button id="option01" backgroundImage="/images/background/answer01.png" bottom="210" onClick="option01Clicked" width="100%" height="10%" left="5" right="5" />
+		<Button id="option02" backgroundImage="/images/background/answer02.png" bottom="170" onClick="option02Clicked" width="100%" height="10%" left="5" right="5" />
+		<Button id="option03" backgroundImage="/images/background/answer01.png" bottom="120" onClick="option03Clicked" width="100%" height="10%" left="5" right="5" />
+		<Button id="option04" backgroundImage="/images/background/answer02.png" bottom="80"  onClick="option04Clicked" width="100%" height="10%" left="5" right="5" />
+				
+		<Button id="exitButton" backgroundImage="/images/buttons/button_exit.png" bottom="0" left="0" width="80" height="80" onClick="exitGame" />
+		<Button id="nextButton" backgroundImage="/images/buttons/button_next.png" bottom="0" right="0" width="80" height="80" onClick="nextQuestion" />
+				
+	</Window>
+</Alloy>

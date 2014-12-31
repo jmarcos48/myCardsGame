@@ -1,0 +1,28 @@
+<Alloy>
+	<Window id="card" backgroundImage="/images/background/general.jpg">		
+		
+		<!-- 2 PLAYERS OBJECTS -->
+		<Button id="player01_2players" visible="false" backgroundImage="/images/buttons/players2_01.png" top="0" onClick="showAnswerPlayer01_2players" width="100%" height="30%"/>
+		<Button id="player02_2players" visible="false" backgroundImage="/images/buttons/players2_02.png" bottom="0" onClick="showAnswerPlayer02_2players" width="100%" height="30%"/>
+		<ImageView id="speaker_2players" visible="false" image="/images/button_speaker.png" top="180" left="10" width="45%" height="25%"/>
+		<Button id="replayButton_2players" visible="false" backgroundImage="/images/buttons/button_replay.png" top="170" right="50" onClick="replayQuestion" width="233px" height="131px"/>
+		<Button id="exitButton_2players" visible="false" backgroundImage="/images/buttons/button_exit.png" top="250" right="65" onClick="exitGame" width="173px" height="171px"/>
+		
+		<!-- 3 PLAYERS OBJECTS -->
+		<Button id="player01_3players" visible="false" backgroundImage="/images/buttons/players3_01.png" top="40" onClick="showAnswerPlayer01_3players" width="100%" height="20%"/>
+		<Button id="player02_3players" visible="false" backgroundImage="/images/buttons/players3_02.png" top="160" onClick="showAnswerPlayer02_3players" width="100%" height="20%"/>
+		<Button id="player03_3players" visible="false" backgroundImage="/images/buttons/players3_03.png" top="280" onClick="showAnswerPlayer03_3players" width="100%" height="20%"/>
+		<ImageView id="speaker_3players" visible="false" image="/images/button_speaker.png" bottom="0" left="5" width="45%" height="25%" />
+		<Button id="replayButton_3players" visible="false" backgroundImage="/images/buttons/button_replay.png" bottom="49" right="60" onClick="replayQuestion" width="233px" height="131px"/>
+		<Button id="exitButton_3players" visible="false" backgroundImage="/images/buttons/button_exit.png" bottom="0" right="5" onClick="exitGame" width="173px" height="171px"/>		
+				
+		<!-- 4 PLAYERS OBJECTS -->
+		<Button id="player01_4players" visible="false" backgroundImage="/images/buttons/players4_01.png" top="0" left="0" onClick="showAnswerPlayer01_4players" width="50%" height="38%"/>
+		<Button id="player02_4players" visible="false" backgroundImage="/images/buttons/players4_02.png" top="0" right="0" onClick="showAnswerPlayer02_4players" width="50%" height="38%"/>
+		<Button id="player03_4players" visible="false" backgroundImage="/images/buttons/players4_03.png" bottom="0" left="0" onClick="showAnswerPlayer03_4players" width="50%" height="38%"/>
+		<Button id="player04_4players" visible="false" backgroundImage="/images/buttons/players4_04.png" bottom="0" right="0" onClick="showAnswerPlayer04_4players" width="50%" height="38%"/>
+		<ImageView id="speaker_4players" visible="false" image="/images/button_speaker.png" width="35%" height="15%" top="220" left="0"/>
+		<Button id="replayButton_4players" visible="false" backgroundImage="/images/buttons/button_replay.png" onClick="replayQuestion" width="233px" height="131px" top="230" right="90"/>
+		<Button id="exitButton_4players" visible="false" backgroundImage="/images/buttons/button_exit.png" onClick="exitGame" width="173px" height="171px" top="220" right="0" />			
+	</Window>
+</Alloy>

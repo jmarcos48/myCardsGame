@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0002,"key":"rowContainer","style":{layout:"vertical",textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,width:Ti.UI.FILL,color:"black",}}];

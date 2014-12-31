@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=myCardsGame
+iosLaunchConfigurationAttributes/appid=com.marykay.games.cards
+iosLaunchConfigurationAttributes/certificate=Mary Kay Inc. (EYSSGDBS2V)
+iosLaunchConfigurationAttributes/distribute_path=/Users/gonzalmar/Desktop/triviamk
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/output_format=ipa
+iosLaunchConfigurationAttributes/sdk_version=8.1
+iosLaunchConfigurationAttributes/uuid=c8ed66bc-713b-4dbc-b5a3-ef3011835a92

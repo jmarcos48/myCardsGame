@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0012,"key":"winnerInfo","style":{font:{fontSize:18,fontWeight:"bold",},color:"white",textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,}}];

@@ -1,0 +1,6 @@
+"#rowContainer":{
+	layout:'vertical',
+	textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	color: 'black'
+}

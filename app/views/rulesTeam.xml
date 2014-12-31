@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="rulesTeam" backgroundImage="/images/background/rules_team.jpg">	
+		
+		<Button id="backButton" width="30%" height="15%" bottom="0" left="1" backgroundImage="/images/buttons/button_back.png" onClick="back"/>	
+		<Button id="play" backgroundImage="/images/buttons/button_play.png" bottom="0" right="1" onClick="play" width="30%" height="15%"/>				
+	</Window>
+</Alloy>

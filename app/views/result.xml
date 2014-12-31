@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="board" backgroundImage="/images/background/general.jpg">	
+		<View id="resultBoard" layout="vertical" top="50" backgroundImage="/images/background/single_keepgoing.png" width="678px" height="668px"></View>	
+		<Button id="playAgain" backgroundImage="/images/buttons/button_playAgain.png" bottom="0" right="15" onClick="playAgain" width="160px" height="160px"/>				
+	</Window>
+</Alloy>

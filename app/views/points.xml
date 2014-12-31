@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="pointsWindow" backgroundImage="/images/background/points.jpg" backgroundColor="#FBC9BA" barColor="black" statusBarStyle="Titanium.UI.iPhone.StatusBar.OPAQUE_BLACK">
+		<Button id="nextQuestionButton" title="Next Question" style="fontSize:'12'" bottom="0" backgroundColor="black" left="5" onClick="nextQuestion"/>
+	</Window>
+</Alloy>

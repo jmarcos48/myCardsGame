@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="welcomeWindow">
+		<Button id="playSingleButton" backgroundImage="/images/buttons/button_playSingle.png" bottom="145" left="15" onClick="goToSinglePlayer" width="40%" height="25%"/>
+		<Button id="playTeamButton" backgroundImage="/images/buttons/button_playTeam.png" bottom="145" right="15" onClick="goToPLayers" width="40%" height="25%"/>
+		<!--<Button id="x" bottom="0" title="Go To WINNERS" right="0" onClick="goToWinners" width="247px" height="243spx"/>-->
+	</Window>
+</Alloy>
